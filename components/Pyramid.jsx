@@ -7,14 +7,7 @@ const fadeInWithDelay = (delay) => ({
 });
 
 const Pyramid = () => {
-  const [imagesLoaded, setImagesLoaded] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setImagesLoaded(true);
-    }, 500);
-  }, []);
-
+  
   return (
     <motion.div initial="hidden" animate="visible" variants={fadeInWithDelay(0.4)}>
     <div className="drawww mian">
