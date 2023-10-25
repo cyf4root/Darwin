@@ -45,6 +45,8 @@ const World = () => {
 
   return (
   <section className={`${styles.paddings} relative h-[100%] z-10`}>
+    <h1 className='zonea '>D 
+<span className='zonr '>A</span ><span className='zona'>R</span><span className='zonf'>W</span>< span className='zont'>I</span>N</h1>
     <motion.div
       variants={staggerContainer}
       initial="hidden"

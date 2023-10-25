@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 const fadeInWithDelay = (delay) => ({
   hidden: { opacity: 0 },
-  visible: { opacity: 1, transition: { delay, duration: 0.5 } },
+  visible: { opacity: 1, transition: { delay, duration: 0.4 } },
 });
 
 const Pyramid = () => {
@@ -16,20 +16,17 @@ const Pyramid = () => {
   }, []);
 
   return (
-    <motion.div initial="hidden" animate="visible" variants={fadeInWithDelay(0.5)}>
-    <div className={`drawww mian ${imagesLoaded ? 'visible' : 'hidden'}`}>
+    <motion.div initial="hidden" animate="visible" variants={fadeInWithDelay(0.4)}>
+    <div className="drawww mian">
         <img
           src="/worth.png"
           alt="ll"
-          onLoad={() => setImagesLoaded(true)}
         />
       </div>
       <div className={`draww `}>
         <img
           src="/pagal.png"
-          alt="ll"
-          onLoad={() => setImagesLoaded(true)}
-        />
+          alt="ll"        />
       </div>
     </motion.div>
   );

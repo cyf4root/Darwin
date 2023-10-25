@@ -15,7 +15,7 @@ import Pyramid from '../components/Pyramid';
 
 const fadeInWithDelay = (delay) => ({
   hidden: { opacity: 0 },
-  visible: { opacity: 1, transition: { delay, duration: 0.5 } },
+  visible: { opacity: 1, transition: { delay, duration: 0.3 } },
 });
 
 const Home = () => {
@@ -40,7 +40,7 @@ const Home = () => {
           <div className="overflow-hidden">
             <Pyramid/>
           </div>
-          <motion.div initial="hidden" animate="visible" variants={fadeInWithDelay(1)}>
+          <motion.div initial="hidden" animate="visible" variants={fadeInWithDelay(.5)}>
             <div className="ottt overflow-hidden">
               <Duno />
             </div>

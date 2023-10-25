@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
 
 const fontFamilies = ['AmaticSC-Bold', 'Bangers-Regular', 'Rye-Regular', 'IndieFlower-Regular', 'KirangHaerang-Regular', 'FrederickatheGreat-Regular'];
 

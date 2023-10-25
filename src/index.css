@@ -114,14 +114,9 @@
 
 @font-face {
   font-family: 'Rock Salt';
-  src: url('https://fonts.googleapis.com/css?family=Rock+Salt') format('truetype');
+  src: url('/fonts/RockSalt-Regular.ttf') format('truetype');
 }
 
-
-@font-face {
-  font-family: 'Nata-ExtraBlack';
-  src: url('/fonts/Nata-ExtraBlack.otf') format('truetype');
-}
 
 @font-face {
   font-family: 'Bangers-Regular';
@@ -1486,18 +1481,27 @@ textarea {
 .drawww img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   filter: brightness(0.7);
 
 }
 
 @media (max-width: 768px) {
 
-  .draww img,
   .drawww img {
-    object-fit: cover;
+    background-size: cover;
   }
 }
+
+@media (max-width: 768px) {
+
+  .draww img {
+    object-fit: cover;
+    }
+}
+
 
 @media (max-width: 768px) {
 

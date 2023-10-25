@@ -24,7 +24,7 @@ const Gallery = () => {
     'Craft exceptional interfaces through our meticulous UI/UX design',
     'Shape your ideas into captivating mobile apps.',
   ];
-  const texts = ['Content', 'Web', 'ui/ux', 'Micro Saas', 'Content', 'Web', 'ui/ux', 'Micro Saas'];
+  const texts = ['Content', 'Web', 'ui/ux', 'App', 'Content', 'Web', 'ui/ux', 'App'];
   const textsStyles = [
     'moda11',
     'moda21',
