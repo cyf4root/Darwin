@@ -2413,3 +2413,7 @@ text-transform: uppercase;
   transform: translate(-50%, -50%);
   /* Add any other styles for your image here */
 }
+
+.laptop {
+  background-color: white;
+}
